@@ -1,0 +1,126 @@
+        :root {
+            --primary-color: #007bff;
+            --secondary-color: #333;
+            --background-color: #f4f4f4;
+            --container-bg: #fff;
+            --heading-color: #007bff;
+            --border-radius: 5px;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: "Poppins", sans-serif;
+            background-color: var(--background-color);
+            color: var(--secondary-color);
+            line-height: 1.5;
+            margin: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: var(--container-bg);
+            border-radius: var(--border-radius);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .header img {
+            width: 266px;
+            height: 357px;
+            border-radius: 50%;
+            object-fit: cover;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .header h1 {
+            margin: 10px 0 5px;
+            font-size: 1.8rem;
+        }
+
+        .header p {
+            font-size: 1rem;
+            color: #555;
+        }
+
+        .section-title {
+            font-weight: 700;
+            color: var(--heading-color);
+            margin-top: 1em;
+            margin-bottom: 0.5em;
+            text-transform: uppercase;
+            border-bottom: 2px solid var(--primary-color);
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        ul li {
+            margin-bottom: 6px;
+        }
+
+        .card {
+            border: 1px solid #ccc;
+            border-radius: var(--border-radius);
+            padding: 15px;
+            margin-bottom: 10px;
+            background-color: #fafafa;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.8rem;
+            color: #555;
+        }
+
+        .patreon-link {
+            color: var(--secondary-color);
+        }
+
+        .navigation {
+            background-color: var(--secondary-color);
+            padding: 10px;
+        }
+
+        .nav-links {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .nav-links a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .nav-links a:hover {
+            text-decoration: underline;
+        }
+
+        .duolingo-badge {
+            width: 120px;
+            height: auto;
+        }
